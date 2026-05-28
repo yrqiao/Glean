@@ -1,0 +1,50 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Downloaded datasets and local raw data
+data/
+datasets/
+raw_data/
+Code_for_CelebA/img_align_celeba/
+Code_for_CelebA/list_attr_celeba.txt
+Code_for_DomainNet/DomainNet_attr.xlsx
+
+# Training checkpoints and generated model artifacts
+saved_model/
+**/saved_model/
+*.pth
+*.pt
+*.ckpt
+
+# Certification outputs and generated figures
+output_file
+output_file*
+Figure_*.pdf
+Figure_*.png
+
+# Keep the provided preprocessed environment files trackable
+!Code_for_CelebA/*.pickle
+!Code_for_DomainNet/*.pickle
