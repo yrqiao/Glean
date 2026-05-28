@@ -32,7 +32,7 @@ All default hyperparameters and file paths are set inside the corresponding Pyth
 The code requires **Python 3.11** with PyTorch and CUDA support. We recommend creating a dedicated conda environment:
 
 ```bash
-git clone <repository-link>
+git clone https://github.com/yrqiao/Glean.git
 cd Glean
 conda create -n glean python=3.11
 conda activate glean
