@@ -12,6 +12,8 @@ Yiran Qiao, Yu Yin, Chen Chen, Jing Ma<sup>*</sup>
 
 </div>
 
+![poster](./AAAI2025Poster.png)
+
 ## Introduction
 
 This repository contains the code for **Certified Causal Defense with Generalizable Robustness**. The work studies certified robustness under distribution shift, where models must remain robust not only on the training distribution but also on shifted test domains. The proposed framework, **GLEAN**, combines causal factor learning with randomized smoothing so that the certified defense can reduce the effect of spurious correlations and improve robustness generalization across domains.
